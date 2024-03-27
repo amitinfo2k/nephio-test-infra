@@ -16,7 +16,7 @@ gitea:
     username: nephio
     password: secret
 
-nephio_catalog_repo_uri: https://github.com/nephio-project/catalog.git
+nephio_catalog_repo_uri: https://github.com/amitinfo2k/catalog.git
 
 nephio_stock_repos:
   - name: catalog-distros-sandbox
@@ -50,6 +50,10 @@ nephio_stock_repos:
   - name: catalog-workloads-tools
     repo: "{{ nephio_catalog_repo_uri }}"
     directory: /workloads/tools
+    branch: main
+  - name: catalog-workloads-sdcore4g
+    repo: "{{ nephio_catalog_repo_uri }}"
+    directory: /workloads/sdcore4g
     branch: main
 
 nephio:

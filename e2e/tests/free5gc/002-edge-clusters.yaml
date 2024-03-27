@@ -22,7 +22,6 @@ spec:
     - name: mgmt
       packageNames:
       - edge01
-      - edge02
     template:
       annotations:
         approval.nephio.org/policy: initial

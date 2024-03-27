@@ -113,5 +113,6 @@
     - catalog-nephio-core
     - catalog-nephio-optional
     - catalog-workloads-free5gc
+    - catalog-workloads-sdcore4g
     - catalog-workloads-oai-ran
     - oai-core-packages

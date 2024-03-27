@@ -57,7 +57,7 @@ log_path = /var/log/deploy_sandbox.log
 # Increase the forks
 forks = 20
 # Enable mitogen
-strategy_plugins = $(dirname "$(sudo find / -name mitogen_linear.py | head -n 1)")
+strategy_plugins = $(dirname "$(sudo find /usr/local/lib/ -name mitogen_linear.py | head -n 1)")
 # Enable timing information
 callbacks_enabled = timer, profile_tasks, profile_roles
 # The playbooks is only run on the implicit localhost.
